@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator 2.0</title>
+  <style>
+
+  </style>
+</head>
+<body>
+    <div class="back">
+     <h1> Luana Ferreira! </h1>
+    <div class="calculator">
+      <h1>Calculator 2.0</h1>
+      <p id="result">result</p>
+      <table>
+          <tr>
+            <td><button class="button">C</button></td>
+            <td><button class="button"><</button></td>
+            <td><button class="button">/</button></td>
+            <td><button class="button">X</button></td><br>
+          </tr>
+          <tr>
+            <td><button class="button">7</button></td>
+            <td><button class="button">8</button></td>
+            <td><button class="button">9</button></td>
+            <td><button class="button">-</button></td><br>
+          </tr>
+          <tr>
+            <td><button class="button">4</button></td>
+            <td><button class="button">5</button></td>
+            <td><button class="button">6</button></td>
+            <td><button class="button">+</button></td><br>
+          </tr>
+          <tr>
+            <td><button class="button">1</button></td>
+            <td><button class="button">2</button></td>
+            <td><button class="button">3</button></td>
+            <td rowspan="2"><button class="button" style="height:112px">=</button></td><br>
+          </tr>
+          <tr>
+            <td colspan="2"><button class="button" style="width:112px">0</button></td>
+            <td><button class="button">.</button></td>
+          </tr>
+      </table>
+      <div>
+        <footer>
+          <script>
+          function insert(num)
+          {
+            document.getElementByID('result').innerHTML = num;
+          }
+          </script>
+        </footer>
+      </div>
+</body>
+</html>
+<!--Olá, mundo!-->
